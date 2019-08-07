@@ -1,0 +1,47 @@
+{
+  "name": "@dblk/cleaner",
+  "version": "1.0.0",
+  "description": "Clean a recordset to remove duplicate for CICP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "matcher",
+      "configLoader"
+    ],
+    "provides": [
+      "cleaner"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dblk/cleaner"
+  },
+  "homepage": "https://github.com/dblk/cleaner#readme",
+  "keywords": [
+    "cicp",
+    "matcher",
+    "config",
+    "clean",
+    "duplicate",
+    "yamp"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "author": {
+    "name": "Remy Boulanouar",
+    "email": "admin@dblk.org"
+  },
+  "license": "MIT"
+}
